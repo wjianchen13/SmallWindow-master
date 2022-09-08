@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/float_view_height">
+
+    <TextView
+        android:id="@+id/tv_test"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/float_view_height"
+        android:alpha="0.8"
+        android:background="#1a19b9"
+        android:gravity="center"
+        android:text="录音中..."
+        android:textColor="@android:color/white"/>
+</RelativeLayout>
